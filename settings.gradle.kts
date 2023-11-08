@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Halo"
+rootProject.name = "HaloDev"
 include(":app")
  

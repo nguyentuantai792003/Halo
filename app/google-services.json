@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "651814681348",
-    "project_id": "halo-f4078",
-    "storage_bucket": "halo-f4078.appspot.com"
+    "project_number": "958578004676",
+    "project_id": "halo-socialmediaapp",
+    "storage_bucket": "halo-socialmediaapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:651814681348:android:58e49869c5b97e1100ae51",
+        "mobilesdk_app_id": "1:958578004676:android:7a2a8b2d4b318de641af91",
         "android_client_info": {
-          "package_name": "com.example.halo"
+          "package_name": "com.example.halodev"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCOfYKOfBmapY7uLUSfidEs7L-rtHI31kA"
+          "current_key": "AIzaSyDlwv6rxokkl6oljdu5uXixtRagwhIEf-U"
         }
       ],
       "services": {
