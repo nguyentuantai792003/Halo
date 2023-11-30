@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "797764362286",
+    "firebase_url": "https://halo-8d1ca-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "halo-8d1ca",
+    "storage_bucket": "halo-8d1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797764362286:android:d06aa9385efb9a8c9ebfbf",
+        "android_client_info": {
+          "package_name": "my.halo.androrealm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsq3-nFrClYkqmMYTCE1wOKrjxphBIyJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

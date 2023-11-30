@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.halo.androrealm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="my.halo.androrealm.InstagramOffline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_instaclone"
+        android:roundIcon="@mipmap/ic_launcher_instaclone_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="my.halo.androrealm.Messages.MessageActivity"
+            android:parentActivityName="my.halo.androrealm.Messages.ChatActivity"></activity>
+        <activity
+            android:name="my.halo.androrealm.Messages.ChatActivity"
+            android:parentActivityName="my.halo.androrealm.Home" />
+        <activity android:name="my.halo.androrealm.Stories.StoryActivity" />
+        <activity android:name="my.halo.androrealm.Stories.AddStoryActivity" />
+        <activity android:name="my.halo.androrealm.Profile.FollowersFollowing" />
+        <activity android:name="my.halo.androrealm.Search.UserSearchViewPost" />
+        <activity android:name="my.halo.androrealm.Search.UserSearchProfileActivity" />
+        <activity android:name="my.halo.androrealm.Profile.ViewComments" />
+        <activity android:name="my.halo.androrealm.Post.PostActivity" />
+        <activity android:name="my.halo.androrealm.VerifyPhone" />
+        <activity android:name="my.halo.androrealm.Registration" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="my.halo.androrealm.Login" />
+        <activity android:name="my.halo.androrealm.Profile.EditProfile" />
+        <activity android:name="my.halo.androrealm.Profile.Account_Settings" />
+        <activity
+            android:name="my.halo.androrealm.Home"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="my.halo.androrealm.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="my.halo.androrealm.Messages.Notification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="my.halo.androrealm.Messages.Notification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
